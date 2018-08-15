@@ -1,11 +1,10 @@
-import React from "react";
-
+import React from 'react';
 
 export default class Layout extends React.Component {
-
   render() {
     return (
-      <div> <p> this is layout </p></div>
+      <div>This is Layout </div>
     );
   }
+
 }
