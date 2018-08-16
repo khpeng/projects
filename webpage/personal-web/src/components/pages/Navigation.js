@@ -15,17 +15,11 @@ export default class Navigation extends React.Component {
           <div className="nav-target">
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="./Resume">Resume</Link></li>
-                <li><Link to="./Projects">Projects</Link></li>
+                <li><Link to="./Resume">Resume</Link></li>    
                 <li><Link to="./Contact">Contact</Link></li>
-                <div className ="dropDown">
-                  <button className ="dropButton"> Github </button>
-                    <i className ="down"> </i>
-                    <div className="dropContent">
-                      <a  href ="https://github.com/khpeng/projects" > Projects </a>
-                      <a  href ="https://github.com/khpeng/academic_project" > Academic Projects </a>
-                    </div>
-                </div>
+                <li> <a  href ="https://github.com/khpeng/projects" > Projects </a> </li>
+                <li> <a  href ="https://github.com/khpeng/academic_project" > Academic Projects </a> </li>
+
               </ul>
 
 
